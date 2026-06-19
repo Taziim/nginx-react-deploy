@@ -123,6 +123,7 @@ sudo nginx -t && sudo systemctl restart nginx
 ### Screenshot
 Site running on public IP:
 <img src="./frontend/src/assets/frontend.png" alt="Todo App Screenshot" width="100%"/>
+
 *Tariqul Islam*  
 📧 Email: tariqulislamtazim99@gmail.com  
 🔗 LinkedIn: https://www.linkedin.com/in/tariqulislamtazim/
