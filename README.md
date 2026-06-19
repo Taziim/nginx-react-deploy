@@ -1,4 +1,4 @@
-# Todo App — Manual Deployment Guide 
+# Todo App — Manual Deployment Guide Using nginx 
 > Complete step-by-step guide to deploy the todo app on AWS EC2 Ubuntu using a layer-based approach.
 
 ---
@@ -48,7 +48,6 @@ cd nginx-react-deploy
 ---
 
 ## Step 1 — Frontend Layer
-
 ### 1.1 Install Nginx
 ```bash
 sudo apt install -y nginx
@@ -120,9 +119,11 @@ sudo rm -f /etc/nginx/sites-enabled/default
 sudo nginx -t && sudo systemctl restart nginx
 ```
 ---
-
-*MD Sarowar Alam*  
-Lead DevOps Engineer, WPP Production  
-📧 Email: tariqulislamtazim99@hotmail.com  
-🔗 LinkedIn: https://www.linkedin.com/in/sarowar/
+   
+### Screenshot
+Site running on public IP:
+<img src="assets/demo.png" alt="Todo App Screenshot" width="100%"/>
+*Tariqul Islam*  
+📧 Email: tariqulislamtazim99@gmail.com  
+🔗 LinkedIn: https://www.linkedin.com/in/tariqulislamtazim/
 ---
